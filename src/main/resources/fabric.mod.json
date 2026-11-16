@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tommyclient",
+  "version": "${version}",
+  "name": "TommyClient",
+  "description": "A client-side utility mod with ClickGUI and configurable HUD.",
+  "authors": ["Tommy"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.tommy.client.ClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
